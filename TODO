@@ -1,0 +1,27 @@
+
+Graphics:
+  Memory:
+    ☐ In-memory Buffer
+    ☐ Queue Changes
+    ☐ Set Pixel
+    ☐ Read Pixel
+    ☐ Commit Changes
+  Canvas Renderer:
+    ☐ Render
+    ☐ Interpolate
+  Shapes:
+    ☐ Draw Line
+    ☐ Draw Shape (Empty)
+    ☐ Draw Shape (Filled)
+    ☐ Draw Circle (Empty)
+    ☐ Draw Circle (Filled)
+    ☐ Draw Sprite
+  
+Game:
+  Tick Lifecycle:
+    ☐ Tick Start
+    ☐ Events
+    ☐ Pre-Render
+    ☐ Render
+    ☐ Post-Render
+    ☐ Tick End
