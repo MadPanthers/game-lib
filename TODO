@@ -1,7 +1,7 @@
 
 Graphics:
   Memory:
-    ☐ In-memory Buffer
+    ✔ In-memory Buffer @started(20-08-04 17:57) @done(20-08-04 18:55) @lasted(58m24s)
     ☐ Queue Changes
     ☐ Set Pixel
     ☐ Read Pixel
