@@ -6,6 +6,9 @@ pub struct Colour {
 }
 
 impl Colour {
+    ///
+    /// Create a new colour with the given RGB settings
+    ///
     pub fn new(red: usize, green: usize, blue: usize) -> Self {
         Colour { red, green, blue }
     }

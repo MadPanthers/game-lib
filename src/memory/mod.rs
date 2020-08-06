@@ -12,6 +12,9 @@ pub struct Memory {
 }
 
 impl Memory {
+    ///
+    /// Creates a new Memory object of the given dimensions
+    /// 
     pub fn new(width: usize, height: usize) -> Self {
         Memory {
             board: vec![BLACK; width * height],
