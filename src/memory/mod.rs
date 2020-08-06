@@ -6,8 +6,8 @@ use position::Position;
 
 #[derive(Debug)]
 pub struct Memory {
-    board: Vec<Colour>,
-    width: usize,
+    pub board: Vec<Colour>,
+    pub width: usize,
     height: usize,
 }
 
@@ -85,11 +85,10 @@ mod tests {
 
     #[test]
     fn it_reads_a_pixel() {
-        let size = 3;
-        let mut memory = Memory::new(size, size);
-        memory.board[4] = Colour::new(255, 0, 0);
+        let mut memory = Memory::new(3, 5);
+        memory.board[7] = Colour::new(255, 0, 255);
 
-        let col = memory.get(Position { x: 1, y: 1 });
-        assert_eq!(col, Colour::new(255, 0, 0));
+        let col = memory.get(Position { x: 1, y: 2 });
+        assert_eq!(col, Colour::new(255, 0, 255));
     }
 }

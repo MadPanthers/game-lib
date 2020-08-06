@@ -1,7 +1,8 @@
-mod memory;
+pub mod renderer;
+pub mod memory;
 use memory::{colour, position, Memory};
 
-fn main() {
+pub fn init() {
     let mut m = Memory::new(10, 10);
     m.set(
         position::Position { x: 1, y: 1 },

@@ -4,6 +4,31 @@ version = "0.1.0"
 authors = ["Stevan Goode <steve@madhouseminers.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
+js-sys = "0.3.44"
+wasm-bindgen = "0.2.67"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.17"
+
+[dependencies.web-sys]
+version = "0.3.44"
+features = [
+    "HtmlCanvasElement",
+    "CanvasRenderingContext2d",
+]
+
+[dev-dependencies.web-sys]
+version = "0.3.44"
+features = [
+    "Window",
+    "Document",
+    "HtmlElement",
+    "Element",
+    "HtmlCanvasElement",
+    "CanvasRenderingContext2d",
+    "ImageData"
+]

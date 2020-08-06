@@ -5,8 +5,8 @@ Graphics:
     ✔ Set Pixel @done(20-08-04 19:09)
     ✔ Read Pixel @done(20-08-04 19:09)
   Canvas Renderer:
-    ☐ Render
-    ☐ Interpolate
+    ✔ Render @done(20-08-06 19:51)
+    ☐ Render changes
   Shapes:
     ☐ Draw Line
     ☐ Draw Shape (Empty)
